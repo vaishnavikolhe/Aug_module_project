@@ -1,0 +1,46 @@
+
+.book-card {
+    width: 12rem;
+    height: fit-content;
+    max-height: 15rem;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: #fff;
+    color: black;
+  }
+  
+  .book-card-header {
+    color: blue;
+    white-space: break-spaces;
+  }
+  
+  .book-card-info {
+    margin-top: 0px;
+  }
+  
+  .book-card-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    gap: 1px;
+  }
+  
+  button {
+    padding: 10px 2px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

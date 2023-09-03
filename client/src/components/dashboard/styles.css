@@ -1,0 +1,25 @@
+.text{
+    color: white;
+}
+.line{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+.addbookform{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.addbookbutton{
+    width: 100px;
+    height: 45px;
+    margin-top: 25px;
+}
+.bookscardcontainer{
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+}
